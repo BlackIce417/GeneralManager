@@ -37,6 +37,7 @@ create table info (
 	[target] nvarchar(128),
 	[target_id] nvarchar(128),
 	[target_passwd] nvarchar(128),
+    [info_edit_date] nvarchar(128),
 	foreign key (user_id) references [user] (user_id)
 );
 end
