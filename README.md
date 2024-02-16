@@ -1,5 +1,7 @@
 # GeneralManager
- An easy password manager made by WinForm.
+An easy password manager made by WinForm.
+
+## MSSQL Configuration
 
 I use mssql to save data.
 
@@ -80,3 +82,27 @@ END;
 mssql user name: sa
 
 default password : 123456
+
+
+
+## Functions
+
+### Already done
+
+1. User login: 
+
+   use sha256 to save password
+
+2. User sign up
+
+3. User add、delete data
+
+### In coming
+
+1. Crypt user's saved data
+
+2. New admin and owner form
+
+   privileges : ower > admin > user
+
+   
